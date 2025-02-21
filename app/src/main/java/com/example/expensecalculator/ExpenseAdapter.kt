@@ -48,7 +48,6 @@ class ExpenseAdapter(private val expenseList: List<Expense>): Adapter<ExpenseAda
             "Outros" -> holder.expenseColor.setBackgroundColor(holder.context.getColor(R.color.other_color))
         }
     }
-
     override fun getItemCount(): Int = expenseList.size
 
 }
